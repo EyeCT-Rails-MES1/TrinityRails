@@ -41,10 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\InterfaceExample.cs" />
+    <Compile Include="Interfaces\ITram.cs" />
     <Compile Include="Persistencies\DatabaseConnection.cs" />
     <Compile Include="Persistencies\SQLExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\RepositoryExample.cs" />
+    <Compile Include="Repositories\TramRepository.cs" />
+    <Compile Include="Types\Tram.cs" />
     <Compile Include="Types\TypeExample.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
