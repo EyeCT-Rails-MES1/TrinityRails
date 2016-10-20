@@ -20,13 +20,16 @@ namespace DAL.Repositories
         {
             return trams;
         }
-        public void setStatus()
+        public void setStatus(Tram tram, Status status)
         {
-            //TODO
+            tram.status = status;
+            //context.setStatus(); weet niet of dit klopt
         }
-        public void setLocation()
+        public void setLocation(Tram tram, int location)
         {
             //TODO
+            tram.location = location;
+            //context.setLocation(); weet niet of dit klopt
         }
     }
 }
